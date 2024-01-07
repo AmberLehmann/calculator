@@ -3,36 +3,64 @@
   <head>
     <meta charset="UTF-8">
     <title>Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
   </head>
 
   <body>
+    <h1>Standard Calculator</h1>
     <div class="calculator">
-      <div class="display">32</div>
-        <div class="buttons">
+      <div class="display">0</div>
+      <div class="buttons">
+        <div class="left">
+        <div class= "top">
+          <button class="foo"></button>
+          <button class="foo"></button>
           <button class="clear">C</button>
-          <div class="numbers">
+        </div>
+        <div class= "second">
+          <button class="foo"></button>
+          <button class="foo"></button>
+          <button class="foo"></button>
+        </div>
+        <div class="numbers">
+          <div> 
             <button class="seven">7</button>
             <button class="eight">8</button>
             <button class="nine">9</button>
-            <button class="four">4</button>
-            <button class="five">5</button>
-            <button class="six">6</button>
-            <button class="one">1</button>
-            <button class="two">2</button>
-            <button class="three">3</button>
-            <button class="zero">0</button>
           </div>
+          <div>
+          <button class="four">4</button>
+          <button class="five">5</button>
+          <button class="six">6</button>
+          </div>
+          <div>
+          <button class="one">1</button>
+          <button class="two">2</button>
+          <button class="three">3</button>
+          </div>
+          <div>
+          <button class="foo"></button>
+          <button class="zero">0</button>
+          <button class="decimal">.</button>
+          </div>
+        </div>
+        </div>
+        <div class= "right">
+          <button class= "backspace">&#9003;</button>
           <div class="symbols">
-            <button class="plus">+</button>
-            <button class="subtract">-</button>
-            <button class="multiply">x</button>
-            <button class="divide">/</button>
+            <button class="+">+</button>
+            <button class="-">&#8722;</button>
+            <button class="*">&#215;</button>
+            <button class="/">&#247;</button>
           </div>
           <button class="equal">=</button>
         </div>
+        </div>
       </div>
-    </div>
+      
 
     <script src="main.js"></script>
   </body>

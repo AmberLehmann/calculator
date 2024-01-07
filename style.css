@@ -1,11 +1,100 @@
 body {
   margin: 0;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  background : #363636;
 }
 
 .calculator {
   border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  width: 280px;
 }
 
 button {
-  
+  background: white;
+  width: 70px;
+  height: 70px;
+  margin: 0;
+  border: 1px solid darkgray;
+  font-size: 28px;
+  color: white;
+}
+
+.display {
+  min-height: 70px;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  font-size: 40px;
+  background: darkgray;
+  padding-right: 10px;
+  max-width: 280px;
+  word-break: break-all;
+}
+
+.numbers {
+  display: flex;
+  flex-direction: column;
+  background: gray;
+}
+
+.numbers > div {
+  display: flex;
+}
+
+.top {
+  display: flex;
+}
+
+.buttons {
+  display: flex;
+
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+}
+
+.symbols {
+  display: flex;
+  flex-direction: column;
+}
+
+.equal {
+  background: #D067BA;
+}
+
+.right > div > button {
+  background: gray;
+}
+
+.numbers > div > button {
+  background: dimgray;
+}
+
+.top > button, .second > button {
+  background: gray;
+}
+
+h1 {
+  font-weight: 900;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  font-size: 60px;
+  color: white;
+}
+
+.backspace {
+  background: gray;
+  font-size: 20px;
+}
+
+.second {
+  display: flex;
 }
