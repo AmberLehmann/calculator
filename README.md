@@ -1,4 +1,5 @@
-https://amberlehmann.github.io/calculator/
+[Visit Here](https://amberlehmann.github.io/calculator/)
+
 Basic JavaScript calculator.
 
 
